@@ -8,8 +8,7 @@ body {
 	text-align: center;
 }
 
-input[placeholder="Password"],
-input[placeholder="Username"] {
+input.login-start {
 	font-size: 1.25rem;
 	padding: 1.5rem;
 	margin-bottom: 2rem;
@@ -22,3 +21,105 @@ input[placeholder="Username"] {
 	width: 100%;
 }
 
+.button.alert {
+	background: #8c2e2e;
+}
+
+.accordion dd.active a.button {
+	background: #008cba;
+}
+
+.accordion dd.active a.button:hover {
+	background: #007095;
+}
+
+.orbit-container {
+	margin: 30px 0;
+}
+
+.tabs dd a {
+	font-size: .84rem;
+	background: #000;
+}
+
+.accordion .tabs dd.active a {
+	background: #e8e8e8;
+}
+
+.accordion .tabs dd a:hover {
+	background: #e3e3e3;
+}
+
+.accordion .tabs dd a {
+	background: #efefef;
+}
+
+.accordion .tabs-content p a {
+	background: #fff;
+}
+
+#panel4 a {
+	background: #fff;
+}
+
+.parfait2 h5 {
+	color: #fff;
+}
+
+.parfait2 {
+	background: #8c2e2e;
+	color: #fff;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+
+.parfait3 h5,
+.parfait3 a {
+	color: #888;
+}
+
+.parfait3 {
+	background: #3a3a3a;
+	color: #888;
+	padding-top: 20px;
+}
+
+.parfait3 p {
+	font-size: .75rem;
+}
+
+ul.social {
+display: block;
+float: right;
+margin-bottom: 8px;
+}
+
+ul.social li {
+list-style: none;
+display: block;
+float: left;
+margin-left: 10px;
+}
+
+ul.social li a {
+display: block;
+height: 50px;
+width: 50px;
+background: url(../img/social.png) no-repeat center 0;
+}
+
+ul.social li a.twitter {
+background-position: center 0;
+}
+
+ul.social li a.facebook {
+background-position: center -200px;
+}
+
+ul.social li a.mail {
+background-position: center -400px;
+}
+
+ul.social li a:hover {
+opacity: 0.8;
+}
