@@ -21,6 +21,10 @@ input.login-start {
 	width: 100%;
 }
 
+.top-bar {
+	background: #3a3a3a;
+}
+
 .button.alert {
 	background: #8c2e2e;
 }
@@ -35,6 +39,10 @@ input.login-start {
 
 .orbit-container {
 	margin: 30px 0;
+}
+
+.pricing-table .title {
+	background: #3a3a3a;
 }
 
 .tabs dd a {
